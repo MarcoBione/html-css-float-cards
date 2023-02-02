@@ -1,4 +1,4 @@
-/* General */
+/* ===General=== */
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +25,6 @@
 
 .format-cards{
     margin: 0 auto;
-    margin-top: 50px;
     max-width: 1200px;
     padding: 1.2rem;
 }
@@ -44,14 +43,14 @@
 }
 
 .clearfix::after{
-    contain:"";
+    content:"";
     display: block;
     clear:both;
 }
 
-/* End general */
+/* ===End general=== */
 
-/* HEADER */
+/* ===HEADER=== */
 .title{
     display: block;
     position: relative;
@@ -66,27 +65,40 @@
     position: relative;
     font-size: 1.2em;
 }
-/* END HEADER */
+/* ===END HEADER=== */
 
-/* MAIN PAGE */
-.main-container{
 
-}
 
+
+/* ===MAIN PAGE=== */
+
+
+/* CARDS */
 .card{
     width: 30%;
 }
 
-
-/* CARDS */
 img{
     height: 100px;
 }
 
+.info{
+    height: 100px;
+    background-color: var(--bgcards);
+}
+
+.name{
+    font-weight: 700;
+    color: var(--cards-text);
+}
+.job{
+    font-weight: 400;
+    color: var(--cards-text);
+}
+section > a{
+    text-decoration: none;
+    color: var(--links);
+}
 
 
-
-
-
-
-/* END MAIN PAGE */
+/* ===END MAIN PAGE=== */
