@@ -11,12 +11,23 @@
     border: 1px solid black;
 }
 
-.format{
+.debug2{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.format-header{
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
     max-width: 1200px;
-    padding: 15px;
+    padding: 1.2rem;
+}
+
+.format-cards{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1200px;
+    padding: 1.2rem;
 }
 
 :root{
@@ -26,6 +37,16 @@
     --cards-text:#FFFFFF;
     --links:#44B2E1;
     --bgpage:#FFFFFE;
+}
+
+.floatleft{
+    float: left;
+}
+
+.clearfix::after{
+    contain:"";
+    display: block;
+    clear:both;
 }
 
 /* End general */
@@ -46,3 +67,26 @@
     font-size: 1.2em;
 }
 /* END HEADER */
+
+/* MAIN PAGE */
+.main-container{
+
+}
+
+.card{
+    width: 30%;
+}
+
+
+/* CARDS */
+img{
+    height: 100px;
+}
+
+
+
+
+
+
+
+/* END MAIN PAGE */
