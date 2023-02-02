@@ -42,6 +42,10 @@
     float: left;
 }
 
+.floaright{
+    float: right;
+}
+
 .clearfix::after{
     content:"";
     display: block;
@@ -72,10 +76,16 @@
 
 /* ===MAIN PAGE=== */
 
-
+.line2{
+    margin-top: 20px;
+}
 /* CARDS */
 .card{
     width: 30%;
+}
+
+.center{
+    margin:0 57px 0 57px;
 }
 
 img{
@@ -85,19 +95,24 @@ img{
 .info{
     height: 100px;
     background-color: var(--bgcards);
+    padding: 10px;
 }
+
 
 .name{
     font-weight: 700;
     color: var(--cards-text);
+    margin-left: 100px;
 }
 .job{
     font-weight: 400;
     color: var(--cards-text);
+    margin: 5px 0px 5px 100px;
 }
 section > a{
     text-decoration: none;
     color: var(--links);
+    margin-left: 10px;
 }
 
 
