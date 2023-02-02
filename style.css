@@ -3,7 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.format{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
 }
 
 :root{
@@ -12,7 +23,24 @@
     --bgcards : #0F0E17;
     --cards-text:#FFFFFF;
     --links:#44B2E1;
+    --bgpage:#FFFFFE;
 }
 
 /* End general */
 
+/* HEADER */
+.title{
+    display: block;
+    position: relative;
+    width: 1200px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--title);
+}
+
+.paragraph{
+    display: block;
+    position: relative;
+    width: 1200px;
+}
+/* END HEADER */
