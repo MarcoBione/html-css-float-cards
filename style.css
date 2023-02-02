@@ -1,0 +1,18 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --title :#E53170;
+    --paragraph : #293149;
+    --bgcards : #0F0E17;
+    --cards-text:#FFFFFF;
+    --links:#44B2E1;
+}
+
+/* End general */
+
